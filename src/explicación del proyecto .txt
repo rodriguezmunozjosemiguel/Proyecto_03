@@ -1,0 +1,13 @@
+﻿A continuación creamos dos carpeta dentro de Proyecto _02 una llamada doc y otra src,en doc añadiremos este documento pdf en la que explica las instalaciones,después ponemos el comando git add . que mueve al índice las modificaciones que hayamos realizado. Luego, seguimos escribiendo en powershell el comando git commit -m "explicaciones de las instalaciones y uso”,siendo la primera vez que se accede a un repositorio.La primera vez pide una identificación:
+
+
+ (Nos pedirá nuestro correo con el  que nos hayamos registrado en git-hub y su usuario)
+git config --global user.email "jrodmun681@g.educaand.es"
+git config --global user.name "rodriguezmunozjosemiguel”
+git branch -M main
+git remote add origin https://github.com/rodriguezmunozjosemiguel/Proyecto_03.git
+git push -u origin main
+Al hacer el git push solicita la conexión,para poder así identificarse con git-hub y autorizar una credenciales ,subiendo así la información al repositorio creado en git-hub.
+
+
+Con esto hecho ,crearemos un documento txt en la carpeta src ,donde se explicará cada paso desde que se creo la carpeta doc,continuando con powershell,escribiremos el git add. de nuevo para añadir la modificación en la carpeta src,después git commit -m "explicación del proyecto” y git push -u para subir el commit creado.Posteriormente crearemos un bloc de notas donde pondremos nuestros datos(nombre,apellidos..) y una explicación básica de los comandos,el cual lo llamaremos README.md,utilizando la sintaxis de README.md en el bloc de notas,y se añadirá a la carpeta de Proyecto _02,más tarde en powershell pondremos los mismos comandos escritos para el documento txt ,para así subirse lo creado al repositorio.Dando fin al trabajo realizado.
